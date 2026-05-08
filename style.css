@@ -306,3 +306,26 @@ body {
     .contact-card { padding: 40px 20px; }
     .contact-card h1 { font-size: 2rem; }
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url('fonts/Poppins-Light.ttf');
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'PoppinsBold', sans-serif;
+}
